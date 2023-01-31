@@ -51,6 +51,12 @@ cm run script \
 (flags from below)
 ```
 
+Possible variations (explained later): 
+1. `_50` 
+2. `_500`
+3. `_full`
+4. One among `calibration`, `validation`
+
 <details>
 <summary> Alternative commands </summary>
 
