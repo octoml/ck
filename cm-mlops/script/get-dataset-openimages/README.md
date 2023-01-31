@@ -35,6 +35,7 @@
 * Output cached?: *True*
 ___
 </details>
+
 ### Usage
 
 #### CM installation
@@ -55,6 +56,7 @@ ___
 
 `cm run script 0a9d49b644cf4142`
 </details>
+
 #### CM Python API
 
 <details>
