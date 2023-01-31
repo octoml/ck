@@ -39,8 +39,13 @@ ___
 ### Usage
 
 #### CM installation
-
-[Guide](https://github.com/mlcommons/ck/blob/master/docs/installation.md)
+On Ubuntu please do
+```bash
+python3 -m pip install cmind
+source $HOME/.profile
+cm pull repo mlcommons@ck
+```
+Follow this [guide](https://github.com/mlcommons/ck/blob/master/docs/installation.md) for other installations
 
 
 #### CM CLI
