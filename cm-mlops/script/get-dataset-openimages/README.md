@@ -45,9 +45,11 @@ ___
 
 #### CM CLI
 
-`cm run script \
+```bash
+cm run script \
 --tags=get,dataset,openimages,open-images,object-detection,original(,variations from below) \
-(flags from below)`
+(flags from below)
+```
 
 <details>
 <summary> Alternative commands </summary>
