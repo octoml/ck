@@ -25,7 +25,7 @@
 
 ### Description
 <details>
-#### <summary> Information </summary>
+ <summary> #### Information </summary>
 
 * Category: *ML/AI datasets.*
 * CM GitHub repository: *[mlcommons@ck](https://github.com/mlcommons/ck/tree/master/cm-mlops)*
