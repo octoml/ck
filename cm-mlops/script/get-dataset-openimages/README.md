@@ -47,8 +47,7 @@ ___
 
 ```bash
 cm run script \
---tags=get,dataset,openimages,open-images,object-detection,original(,variations from below) \
-(flags from below)
+--tags=get,dataset,openimages,open-images,object-detection,original(,variations from below)
 ```
 
 Possible variations (explained later): 
