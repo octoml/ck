@@ -25,7 +25,7 @@
 
 ### Description
 <details>
- <summary> #### Information </summary>
+ <summary> Information </summary>
 
 * Category: *ML/AI datasets.*
 * CM GitHub repository: *[mlcommons@ck](https://github.com/mlcommons/ck/tree/master/cm-mlops)*
@@ -57,10 +57,9 @@ ___
 `cm run script 0a9d49b644cf4142`
 </details>
 
-#### CM Python API
 
 <details>
-<summary>Click here to expand this section.</summary>
+<summary>CM Python API</summary>
 
 ```python
 
@@ -81,25 +80,6 @@ if r['return']>0:
 ```
 
 </details>
-
-#### CM script automation help
-
-```cm run script --help```
-
-
-
-#### CM GUI
-
-```cm run script --tags=gui --script="get,dataset,openimages,open-images,object-detection,original"```
-
-Use this [online GUI](https://cKnowledge.org/cm-gui/?tags=get,dataset,openimages,open-images,object-detection,original) to generate CM CMD.
-
-#### CM modular Docker container
-
-*TBD*
-
-___
-### Customization
 
 
 #### Variations
@@ -163,8 +143,30 @@ These keys can be updated via --env.KEY=VALUE or "env" dictionary in @input.json
 
 </details>
 
+#### CM script automation help
+
+```cm run script --help```
+
+
+
+#### CM GUI
+
+```cm run script --tags=gui --script="get,dataset,openimages,open-images,object-detection,original"```
+
+Use this [online GUI](https://cKnowledge.org/cm-gui/?tags=get,dataset,openimages,open-images,object-detection,original) to generate CM CMD.
+
+#### CM modular Docker container
+
+*TBD*
+
 ___
-### Script workflow, dependencies and native scripts
+
+
+
+
+<details>
+ 
+ <summary> Script workflow, dependencies and native scripts </summary>
 
   1. ***Read "deps" on other CM scripts from [meta](https://github.com/mlcommons/ck/tree/master/cm-mlops/script/get-dataset-openimages/_cm.json)***
      * get,sys-utils-cm
@@ -195,19 +197,22 @@ ___
   1. ***Run "postrocess" function from [customize.py](https://github.com/mlcommons/ck/tree/master/cm-mlops/script/get-dataset-openimages/customize.py)***
   1. Read "post_deps" on other CM scripts from [meta](https://github.com/mlcommons/ck/tree/master/cm-mlops/script/get-dataset-openimages/_cm.json)
 ___
+ </details
+ 
 ### Script output
 #### New environment keys (filter)
 
-* **CM_CALIBRATION_DATASET_PATH**
-* **CM_DATASET_ANNOTATIONS_DIR_PATH**
-* **CM_DATASET_ANNOTATIONS_FILE_PATH**
-* **CM_DATASET_PATH**
+* **`CM_CALIBRATION_DATASET_PATH`**
+* **`CM_DATASET_ANNOTATIONS_DIR_PATH`**
+* **`CM_DATASET_ANNOTATIONS_FILE_PATH`**
+* **`CM_DATASET_PATH`**
+
 #### New environment keys auto-detected from customize
 
-* **CM_CALIBRATION_DATASET_PATH**
-* **CM_DATASET_ANNOTATIONS_DIR_PATH**
-* **CM_DATASET_ANNOTATIONS_FILE_PATH**
-* **CM_DATASET_PATH**
+* **`CM_CALIBRATION_DATASET_PATH`**
+* **`CM_DATASET_ANNOTATIONS_DIR_PATH`**
+* **`CM_DATASET_ANNOTATIONS_FILE_PATH`**
+* **`CM_DATASET_PATH`**
 ___
 ### Maintainers
 
