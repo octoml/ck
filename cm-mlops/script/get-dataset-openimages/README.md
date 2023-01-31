@@ -24,8 +24,8 @@
 *Note that this README is automatically generated - don't edit! Use `README-extra.md` to add more info.*
 
 ### Description
-
-#### Information
+<details>
+#### <summary> Information </summary>
 
 * Category: *ML/AI datasets.*
 * CM GitHub repository: *[mlcommons@ck](https://github.com/mlcommons/ck/tree/master/cm-mlops)*
@@ -34,28 +34,27 @@
 * CM "database" tags to find this script: *get,dataset,openimages,open-images,object-detection,original*
 * Output cached?: *True*
 ___
+</details>
 ### Usage
 
 #### CM installation
 
 [Guide](https://github.com/mlcommons/ck/blob/master/docs/installation.md)
 
-#### CM script automation help
-
-```cm run script --help```
 
 #### CM CLI
 
 `cm run script --tags=get,dataset,openimages,open-images,object-detection,original(,variations from below) (flags from below)`
 
-*or*
+<details>
+<summary> Alternative commands </summary>
 
 `cm run script "get dataset openimages open-images object-detection original (variations from below)" (flags from below)`
 
 *or*
 
 `cm run script 0a9d49b644cf4142`
-
+</details>
 #### CM Python API
 
 <details>
@@ -80,6 +79,11 @@ if r['return']>0:
 ```
 
 </details>
+
+#### CM script automation help
+
+```cm run script --help```
+
 
 
 #### CM GUI
